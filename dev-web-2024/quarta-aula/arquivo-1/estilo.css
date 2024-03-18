@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik+Beastly&display=swap');
+html{
+    font-family: "Audiowide";
+    color: darkslategrey;
+    font-size: 50px;
+}
+span{
+    font-family: "Rubik Beastly";
+    color: red;
+    font-weight: bold;
+    background-color: lightblue;
+    font-size: 50px;
+}
+#div-interna{
+    background-color: blue;
+    height: 50vh;
+    width: 50vw;
+}
+dt{
+    color: black;
+}
+dd{
+    color: beige;
+}
+#div-externa{
+    background-color: aqua;
+    height: 1000px;
+    width: 1000px;
+}
+h1{
+    font-size: 200px;
+}
