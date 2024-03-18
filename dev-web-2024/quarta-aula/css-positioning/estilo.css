@@ -1,0 +1,20 @@
+#container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#container1 > div{
+    flex: 1;
+    flex-wrap: wrap;
+}
+.conteudo1{
+    min-width: 100px;
+}
+
+#container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
