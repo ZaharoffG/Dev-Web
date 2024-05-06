@@ -1,0 +1,54 @@
+.card {
+    border: solid 2px;
+    border-color: black;
+    padding: .3rem;
+    width: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "i p "
+    "i n "
+    "d d "
+    "b b ";
+}
+.card > div.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: i;
+}
+.card #foto {
+    object-fit: cover;
+    object-position: 20% 20%;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.card > #posicao {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    grid-area: p;
+}
+.card > #nome {
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+    grid-area: n;
+}
+.card > #descricao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-area: d;
+}
+.card > #nascimento {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: b;
+}
